@@ -94,4 +94,4 @@
 - merges and combines branch history
 - to check if branch merged or not, run `git log --oneline --graph --all` and see the merge commit 
 
-^nice^
+^nice^one
