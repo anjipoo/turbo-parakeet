@@ -88,3 +88,8 @@
 13. `git diff`
 - shows exact changes line by line
 - red shows removed lines, green shows added lines
+
+14. `git merge <branchname> -m "message"`
+- after making changes to other branch, switch to main branch and run this command
+- merges and combines branch history
+- to check if branch merged or not, run `git log --oneline --graph --all` and see the merge commit 
