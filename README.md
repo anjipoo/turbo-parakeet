@@ -2,8 +2,6 @@
 
 ## commands so far 
 
-### basic
-
 1. `git init` 
 - basic command to initialize git repo in the project folder
 - creates .git dir that stores commit history, branches, config, tracking info
@@ -75,3 +73,18 @@
     b. `origin` - name of remote
     c. `main` - branch you're pushing (if pushing a new branch then `git push -u origin <branchname>`)
     d. `-u` - upstream--links local main to origin/main
+
+11. `git switch <branchname>`
+- used to switch between branches 
+
+12. `git checkout -b <branchname>`
+- creates a new branch AND switches to it
+- equivalent to 
+    ```bash
+    git branch <branchname>
+    git switch <branchname>
+    ```
+
+13. `git diff`
+- shows exact changes line by line
+- red shows removed lines, green shows added lines
