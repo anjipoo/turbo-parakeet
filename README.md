@@ -94,4 +94,14 @@
 - merges and combines branch history
 - to check if branch merged or not, run `git log --oneline --graph --all` and see the merge commit 
 
-^nice^ why am i even doing this man ugh
+15. `git restore <filename>`
+- restores the file to last commit version
+
+16. `git restore --staged <README.md>`
+- removes file from staging 
+- but does not discard changes
+
+17. `git reset --soft HEAD~1`
+- removes last commit but keeps changes
+- useful when bad commit, wrong things combined, forgot file
+- alternatively: `git reset --hard HEAD~1` is **dangerous** and it deletes commit + changes + working changes (complete history reset)
