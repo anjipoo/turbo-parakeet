@@ -105,3 +105,8 @@
 - removes last commit but keeps changes
 - useful when bad commit, wrong things combined, forgot file
 - alternatively: `git reset --hard HEAD~1` is **dangerous** and it deletes commit + changes + working changes (complete history reset)
+
+18. `git stash`
+- saves uncommitted changes 
+- restores wkdir to clean state
+- `git stash pop` restores the most recent stash change and removes stash from stash list
